@@ -88,6 +88,9 @@ const Navbar = props => {
           <LinkItem href="/uses" path={path}>
             Uses
           </LinkItem>
+        </Stack>
+
+        <Box flex={1} align="right">
           <LinkItem
             target="_blank"
             href="https://github.com/XenoX/gauthier-swartz"
@@ -95,14 +98,12 @@ const Navbar = props => {
             display="inline-flex"
             alignItems="center"
             style={{ gap: 4 }}
-            pl={2}
+            pr={5}
           >
-            <IoLogoGithub />
             Source
+            <IoLogoGithub />
           </LinkItem>
-        </Stack>
 
-        <Box flex={1} align="right">
           <ThemeToggleButton />
 
           <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
@@ -128,7 +129,7 @@ const Navbar = props => {
                 </MenuItem>
                 <MenuItem
                   as={Link}
-                  href="https://github.com/craftzdog/craftzdog-homepage"
+                  href="https://github.com/XenoX/gauthier-swartz"
                 >
                   View Source
                 </MenuItem>

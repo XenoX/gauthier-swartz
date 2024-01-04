@@ -35,14 +35,16 @@ const components = {
       primary: props => ({
         color: mode('latte_body', 'body')(props),
         bg: mode('latte_teal', 'teal')(props),
-        _hover: { bg: mode('latte_teal_hover', 'teal_hover')(props) }
+        _hover: { 
+          bg: mode('latte_teal_hover', 'teal_hover')(props)
+        }
       }),
       inversed: props => ({
         color: mode('latte_teal', 'teal')(props),
         bg: mode('latte_body', 'body')(props),
         _hover: {
           color: mode('latte_body', 'body')(props),
-          bg: mode('latte_teal', 'teal')(props)
+          bg: mode('latte_teal', 'teal')(props),
         }
       })
     }
@@ -65,7 +67,7 @@ const colors = {
   crust: '#11111B',
 
   yellow_hover: '#EED49F',
-  teal_hover: '#8BD5CQ',
+  teal_hover: '#8BD5CA',
 
   latte_body: '#EFF1F5',
   latte_text: '#4C4F69',
