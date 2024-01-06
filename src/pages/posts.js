@@ -10,8 +10,9 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 
-import thumbDebug from '../../public/images/posts/comment-debugger-un-projet-html-css-et-js.jpg'
 import thumbLaravel from '../../public/images/posts/introduction-a-laravel.jpg'
+import thumbReact from '../../public/images/posts/introduction-a-react.jpg'
+import thumbDebug from '../../public/images/posts/comment-debugger-un-projet-html-css-et-js.jpg'
 import thumbInterview from '../../public/images/posts/reussir-son-entretien-d-embauche.jpg'
 import thumbContribute from '../../public/images/posts/contribuer-a-un-projet-open-source.jpg'
 import thumbDefense from '../../public/images/posts/bien-preparer-sa-soutenance.jpg'
@@ -42,14 +43,19 @@ const Posts = () => (
       <Section delay={0.1}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
-            title="Comment debugger un projet HTML, CSS et JS"
-            thumbnail={thumbDebug}
-            href="https://gaucode.fr/article/dev/comment-debugger-un-projet-html-css-et-js"
-          />
-          <GridItem
             title="Introduction à Laravel"
             thumbnail={thumbLaravel}
             href="https://gaucode.fr/article/dev/introduction-a-laravel"
+          />
+          <GridItem
+            title="Introduction à React"
+            thumbnail={thumbReact}
+            href="https://gaucode.fr/article/dev/introduction-a-react"
+          />
+          <GridItem
+            title="Comment debugger un projet HTML, CSS et JS"
+            thumbnail={thumbDebug}
+            href="https://gaucode.fr/article/dev/comment-debugger-un-projet-html-css-et-js"
           />
           <GridItem
             title="Réussir son entretien d'embauche"

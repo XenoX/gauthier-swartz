@@ -17,7 +17,7 @@ const Wallpapers = () => (
         my={4}
         p={4}
         borderRadius="lg"
-        bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
+        bg={useColorModeValue('whiteAlpha.800', 'whiteAlpha.200')}
       >
         <em>Click on a wallpaper to open it in original size.</em>
       </Box>

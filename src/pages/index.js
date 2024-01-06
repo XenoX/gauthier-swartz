@@ -35,7 +35,7 @@ const Home = () => (
         my={4}
         p={4}
         borderRadius="lg"
-        bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
+        bg={useColorModeValue('whiteAlpha.800', 'whiteAlpha.200')}
       >
         Hello, I&apos;m an indie developer based in France! 🇫🇷
       </Box>
@@ -110,50 +110,56 @@ const Home = () => (
         </Heading>
         <BioSection>
           <BioYear>2023 to present</BioYear>
-          Educational tutor for{' '}
-          <Link href="https://oclock.io/" target="_blank">
-            O&apos;Clock
-          </Link>
+          <Paragraph>
+            Educational tutor for{' '}
+            <Link href="https://oclock.io/" target="_blank">
+              O&apos;Clock
+            </Link>
+          </Paragraph>
         </BioSection>
         <BioSection>
           <BioYear>2016 to 2023</BioYear>
-          Employee in an IT services company as web developer. Work for{' '}
-          <Link href="https://auchan.fr" target="_blank">
-            Auchan
-          </Link>
-          ,{' '}
-          <Link href="https://uni-medias.com/" target="_blank">
-            Uni-Medias
-          </Link>
-          ,{' '}
-          <Link href="https://www.france.tv/" target="_blank">
-            France Télévisions
-          </Link>
-          ,{' '}
-          <Link href="https://decathlon.fr" target="_blank">
-            Decathlon
-          </Link>
-          ,{' '}
-          <Link href="https://lequipe.fr" target="_blank">
-            L&apos;Équipe
-          </Link>{' '}
-          and{' '}
-          <Link href="https://www.letudiant.fr/" target="_blank">
-            L&apos;Étudiant
-          </Link>
-          .
+          <Paragraph>
+            Employee in an IT services company as web developer. Work for{' '}
+            <Link href="https://auchan.fr" target="_blank">
+              Auchan
+            </Link>
+            ,{' '}
+            <Link href="https://uni-medias.com/" target="_blank">
+              Uni-Medias
+            </Link>
+            ,{' '}
+            <Link href="https://www.france.tv/" target="_blank">
+              France Télévisions
+            </Link>
+            ,{' '}
+            <Link href="https://decathlon.fr" target="_blank">
+              Decathlon
+            </Link>
+            ,{' '}
+            <Link href="https://lequipe.fr" target="_blank">
+              L&apos;Équipe
+            </Link>{' '}
+            and{' '}
+            <Link href="https://www.letudiant.fr/" target="_blank">
+              L&apos;Étudiant
+            </Link>
+            .
+          </Paragraph>
         </BioSection>
         <BioSection>
           <BioYear>2016</BioYear>
-          Graduated from SUPINFO (master in IT).
+          <Paragraph>Graduated from SUPINFO (master in IT).</Paragraph>
         </BioSection>
         <BioSection>
           <BioYear>2012 to present</BioYear>
-          Former, tutor and mentor for different customers.
+          <Paragraph>
+            Former, tutor and mentor for different customers.
+          </Paragraph>
         </BioSection>
         <BioSection>
           <BioYear>1992</BioYear>
-          Born in Cambrai, France.
+          <Paragraph>Born in Cambrai, France.</Paragraph>
         </BioSection>
       </Section>
 

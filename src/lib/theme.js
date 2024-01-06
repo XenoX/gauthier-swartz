@@ -35,7 +35,7 @@ const components = {
       primary: props => ({
         color: mode('latte_body', 'body')(props),
         bg: mode('latte_teal', 'teal')(props),
-        _hover: { 
+        _hover: {
           bg: mode('latte_teal_hover', 'teal_hover')(props)
         }
       }),
@@ -44,7 +44,7 @@ const components = {
         bg: mode('latte_body', 'body')(props),
         _hover: {
           color: mode('latte_body', 'body')(props),
-          bg: mode('latte_teal', 'teal')(props),
+          bg: mode('latte_teal', 'teal')(props)
         }
       })
     }
