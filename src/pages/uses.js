@@ -104,7 +104,7 @@ const Posts = () => (
       </Section>
 
       <Heading as="h3" fontSize={20} mb={4}>
-        Sofware
+        Software
       </Heading>
 
       <Section delay={0.3}>
