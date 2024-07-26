@@ -117,8 +117,8 @@ const Posts = () => (
           </ListItem>
           <ListItem mb={0.8}>
             WM:{' '}
-            <Link href="https://hyprland.org/" target="_blank">
-              Hyprland
+            <Link href="https://swaywm.org/" target="_blank">
+              Sway
             </Link>
           </ListItem>
           <ListItem mb={0.8}>

@@ -10,6 +10,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 
+import thumbSecureAccounts from '../../public/images/posts/bien-securiser-ses-comptes.jpg'
 import thumbLaravel from '../../public/images/posts/introduction-a-laravel.jpg'
 import thumbReact from '../../public/images/posts/introduction-a-react.jpg'
 import thumbDebug from '../../public/images/posts/comment-debugger-un-projet-html-css-et-js.jpg'
@@ -42,6 +43,11 @@ const Posts = () => (
 
       <Section delay={0.1}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
+          <GridItem
+            title="Sécuriser ses comptes"
+            thumbnail={thumbSecureAccounts}
+            href="https://gaucode.fr/article/transverse/bien-securiser-ses-comptes"
+          />
           <GridItem
             title="Introduction à Laravel"
             thumbnail={thumbLaravel}

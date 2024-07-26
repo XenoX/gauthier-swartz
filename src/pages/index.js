@@ -7,7 +7,6 @@ import {
   List,
   ListItem,
   useColorModeValue,
-  chakra
 } from '@chakra-ui/react'
 import { ExternalLinkIcon, InfoOutlineIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
@@ -22,10 +21,6 @@ import {
   IoLogoDiscord
 } from 'react-icons/io5'
 import Image from 'next/image'
-
-const ProfileImage = chakra(Image, {
-  shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
-})
 
 const Home = () => (
   <Layout>
@@ -68,9 +63,8 @@ const Home = () => (
             borderRadius="full"
             overflow="hidden"
           >
-            <ProfileImage
+            <Image
               src="/images/avatar.png"
-              borderRadius="full"
               width="100"
               height="100"
             />
@@ -95,7 +89,7 @@ const Home = () => (
           <Link href="https://gaucode.fr" target="_blank">
             <Button
               variant="primary"
-              scroll={false}
+              scroll={0}
               rightIcon={<ExternalLinkIcon />}
             >
               My blog
@@ -109,7 +103,16 @@ const Home = () => (
           Bio
         </Heading>
         <BioSection>
-          <BioYear>2023 to present</BioYear>
+          <BioYear>2024 to present</BioYear>
+          <Paragraph>
+            Technical Lead for{' '}
+            <Link href="https://www.cnb.avocat.fr/" target="_blank">
+              Conseil National des Barreaux
+            </Link>
+          </Paragraph>
+        </BioSection>
+        <BioSection>
+          <BioYear>2023 to 2024</BioYear>
           <Paragraph>
             Educational tutor for{' '}
             <Link href="https://oclock.io/" target="_blank">

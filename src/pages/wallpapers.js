@@ -58,7 +58,7 @@ const Wallpapers = () => (
         Other - up to 5K
       </Heading>
       <WallpaperThumbnailList
-        numOfImages={2}
+        numOfImages={4}
         urlForImage={i =>
           `/images/wallpapers/other/w-${String(i).padStart(2, '0')}.jpg`
         }

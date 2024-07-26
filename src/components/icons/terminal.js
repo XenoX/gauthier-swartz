@@ -4,9 +4,9 @@ const TerminalIcon = props => {
       <path
         d="M12 19H21M3 5L11 12L3 19"
         stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   )
